@@ -1,0 +1,11 @@
+init:
+- echo "This is init phase!"
+- ps: $env:path
+
+build_script:
+- echo "This is build_script phase!"
+- ps: $env:path
+
+test_script:
+- echo "This is test phase!"
+- ps: $env:path
