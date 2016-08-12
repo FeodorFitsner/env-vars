@@ -1,3 +1,5 @@
+image: WMF 5
+
 init:
 - echo "This is init phase!"
 - ps: $env:path
